@@ -273,6 +273,10 @@ section{
    color:var(--light-color);
    font-size: 1.5rem;
 }
+.maps {
+   width: 100%;
+   height: 600px;
+}
 
 .contact form{
    border-radius: .5rem;
