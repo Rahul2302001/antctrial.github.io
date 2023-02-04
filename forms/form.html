@@ -27,8 +27,10 @@
                             <h2>Book Appointemnt</h2>
                         </div>
                         <div class="form-body">
+                          <form action="connect.php" method="post">
                             <div class="row form-row">
-                              <input type="text" placeholder="Enter Full name" class="form-control">
+                              <label for = "fullName">Full Name</label>
+                              <input type="text" placeholder="Enter Full name" id="fullName" class="form-control">
                             </div>
                             <div class="row form-row">
                               <input type="text" placeholder="Enter Father's name" class="form-control">
@@ -44,7 +46,7 @@
                              </div>
                             <h6>Address Details</h6>
 
-                             <div class="row form-row">
+                            <div class="row form-row">
                                 <div class="col-sm-6">
                                    <input type="text" placeholder="Enter Area" class="form-control">
                                 </div>
@@ -52,7 +54,7 @@
                                    <input type="text" placeholder="Enter City" class="form-control">
                                 </div>
                             </div>
-                             <div class="row form-row">
+                            <div class="row form-row">
                                 <div class="col-sm-6">
                                    <input type="text" placeholder="Enter State" class="form-control">
                                 </div>
@@ -61,12 +63,13 @@
                                 </div>
                             </div>
 
-                             <div class="row form-row">
-                               <button class="btn btn-success btn-appointment">
+                            <div class="row form-row">
+                              <button class="btn btn-success btn-appointment">
                                  Book Appointment
-                               </button>
+                              </button>
                                
                             </div>
+                          </form>
 
                         </div>
                     </div>

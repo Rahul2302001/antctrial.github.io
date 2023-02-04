@@ -197,9 +197,20 @@ section{
 .process .box-container .box{
    background-color: var(--blue);
    padding:2rem;
-   border-radius: .5rem;
+   border-radius: 2rem;
    text-align: center;
    box-shadow: var(--box-shadow);
+}
+.process .box-container .box .link-btn{
+   background-color: var(--red);
+   padding:1rem;
+   border-radius: 1rem;
+   text-align: center;
+   box-shadow: var(--box-shadow);
+}
+.process .box-container .box .link-btn:hover{
+   background-color: var(--black);
+   color:var(--white);
 }
 
 .process .box-container .box img{
@@ -241,6 +252,7 @@ section{
    height: 10rem;
    width: 10rem;
    border-radius: 50%;
+   box-shadow: var(--box-shadow);
 }
 
 .reviews .box-container .box p{
