@@ -56,14 +56,14 @@ section{
    display: inline-block;
    padding:1rem 3rem;
    border-radius: .5rem;
-   background-color: var(--blue);
+   background-color: mediumvioletred;
    cursor: pointer;
    font-size: 1.7rem;
    color:var(--white);
 }
 
 .link-btn:hover{
-   background-color: var(--black);
+   background-color: blue;
    color:var(--white);
 }
 
@@ -108,7 +108,7 @@ section{
 }
 
 .home{
-   background:url(../images/home-antc.png) no-repeat;
+   background:url(../images/antc.png) no-repeat;
    background-size: cover;
    background-position: center;
 }
@@ -120,6 +120,11 @@ section{
 
 .home .content h3{
    font-size: 6rem;
+   text-transform: uppercase;
+   color:darkblue;
+}
+.home .content h2{
+   font-size: 4rem;
    text-transform: uppercase;
    color:var(--black);
 }
@@ -195,7 +200,7 @@ section{
 }
 
 .process .box-container .box{
-   background-color: var(--blue);
+   background-color: palevioletred;
    padding:2rem;
    border-radius: 2rem;
    text-align: center;
@@ -220,16 +225,61 @@ section{
 
 .process .box-container .box h3{
    font-size: 2rem;
-   color:var(--white);
+   color: white;
+   margin:1.5rem 0;
+}
+.process .box-container .box h3:hover{
+   font-size: 2rem;
+   color: var(--blue);
    margin:1.5rem 0;
 }
 
 .process .box-container .box p{
    font-size: 1.5rem;
-   color:var(--white);
+   color: white;
    line-height: 2;
 }
+.processs .box-container{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+   gap:2rem;
+}
 
+.processs .box-container .box{
+   background-color: lightpink;
+   padding:2rem;
+   border-radius: 2rem;
+   text-align: center;
+   box-shadow: var(--box-shadow);
+}
+.processs .box-container .box .link-btn{
+   background-color: var(--red);
+   padding:1rem;
+   border-radius: 1rem;
+   text-align: center;
+   box-shadow: var(--box-shadow);
+}
+.processs .box-container .box .link-btn:hover{
+   background-color: var(--black);
+   color:var(--white);
+}
+
+.processs .box-container .box img{
+   height: 20rem;
+   margin:1rem 0;
+}
+
+.processs .box-container .box h3{
+   font-size: 2rem;
+   color: midnightblue;
+   margin:1.5rem 0;
+}
+
+.processs .box-container .box p{
+   font-size: 1.5rem;
+   color: darkgreen;
+   line-height: 2;
+}
 .reviews{
    background-color: var(--light-bg);
 }
@@ -241,7 +291,7 @@ section{
 }
 
 .reviews .box-container .box{
-   background-color: var(--white);
+   background-color: beige;
    text-align: center;
    border-radius: .5rem;
    box-shadow: var(--box-shadow);
@@ -259,7 +309,7 @@ section{
    padding:2rem 0;
    line-height: 2;
    font-size: 1.5rem;
-   color:var(--light-color);
+   color: green;
    margin-bottom: 0;
 }
 
@@ -278,11 +328,11 @@ section{
 
 .reviews .box-container .box h3{
    font-size: 2rem;
-   color:var(--black);
+   color:darkblue;
 }
 
 .reviews .box-container .box span{
-   color:var(--light-color);
+   color:red;
    font-size: 1.5rem;
 }
 .maps {
@@ -345,7 +395,7 @@ section{
    border-radius: 50%;
    line-height: 5rem;
    font-size: 2rem;
-   background-color: var(--blue);
+   background-color: mediumvioletred;
    color:var(--white);
 }
 
