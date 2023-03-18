@@ -272,6 +272,7 @@ section{
     padding:1rem 1.5rem;
 }
 
+
 .container .sidebar .box .link-btn{
     color: white;
     background-color: red;
@@ -280,6 +281,8 @@ section{
     text-align: center;
     box-shadow: var(--box-shadow);
 }
+
+
 .container .sidebar .box .about img{
     height: 15rem;
     width: 15rem;
