@@ -565,7 +565,9 @@ section{
     }
 
     .container .posts-container .post .image{
-        height: 30rem;;
+        height: 30rem;
+        object-fit: contain;
+        width: 100%;
     }
 
     .footer{
