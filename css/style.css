@@ -94,10 +94,15 @@ section{
    margin:0 1rem;
    font-size: 1.7rem;
    color:var(--black);
+   padding: 3px;
 }
 
 .header .nav a:hover{
-   color:var(--blue);
+   color: white;
+   background-color: mediumvioletred;
+   border-radius: 5px;
+   transition: background-color 0.5s;
+   
 }
 
 #menu-btn{
