@@ -16,5 +16,4 @@ window.onscroll = () =>{
   }else{
      header.classList.remove('active');
   }
-
 }
