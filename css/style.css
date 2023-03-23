@@ -429,6 +429,13 @@ section{
    color:var(--blue);
 }
 
+.footer .creditDevelop{
+   color:var(--blue);
+   font-size: small;
+   text-align: -webkit-center;
+}
+
+
 
 
 
